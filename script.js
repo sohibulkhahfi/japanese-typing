@@ -502,6 +502,7 @@ const menu = document.getElementById("menu");
 const container = document.getElementById("news-container");
 const playBtn = document.getElementById("playBtn")
 const stopBtn = document.getElementById("stopBtn")
+const h1 = document.getElementById("h1")
 
 newsData.forEach((news, index) => {
   const button = document.createElement("button");
@@ -514,6 +515,7 @@ newsData.forEach((news, index) => {
 function startNews(index) {
 
   menu.style.display = "none";
+  h1.style.display = "none";
   playBtn.style.display = "block"
   stopBtn.style.display = "block"
 
@@ -556,7 +558,8 @@ function initTyping() {
             container.innerHTML = "";
 
             // Tampilkan kembali menu
-            menu.style.display = "block";
+            menu.style.display = "grid";
+            h1.style.display = "block";
 
             // Hilngkan kembali tombol play/stop
             playBtn.style.display = "none"
@@ -613,6 +616,7 @@ function readNextSentence() {
   const text = block.dataset.plain;
 
   highlightBlock(block);
+  block.focus();
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = "ja-JP"; // penting untuk Jepang
@@ -635,6 +639,11 @@ function highlightBlock(activeBlock) {
   });
 
   activeBlock.classList.add("active-reading");
+
+  activeBlock.scrollIntoView({
+    behavior: "smooth",   // Efek gulir halus, bukan melompat kaku
+    block: "center"       // Memposisikan elemen tepat di tengah layar secara vertikal
+  });
 }
 
 function removeHighlight() {

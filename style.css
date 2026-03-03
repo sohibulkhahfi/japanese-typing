@@ -1,49 +1,168 @@
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  padding: 40px;
+/* Menggunakan font yang lebih modern */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 5px solid #e74c3c;
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        h1#h1 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+
+        /* Container untuk tombol berita */
+        #menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Styling Tombol Berita */
+        .pilihan {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            line-height: 1.6;
+        }
+
+        .pilihan:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+            border-color: #3498db;
+        }
+
+        /* Membedakan Bahasa Jepang dan Indonesia */
+        .pilihan br + span, 
+        .pilihan {
+            display: block;
+        }
+
+        /* Menghias teks Jepang (Baris pertama) */
+        .pilihan::first-line {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1rem;
+        }
+
+        /* Menghias teks Indonesia (Baris kedua) */
+        .pilihan {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+/* CONTAINER UTAMA */
+#news-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
 }
 
+/* BLOK KALIMAT (Ditingkatkan) */
 .sentence-block {
-  margin-bottom: 30px;
-  padding: 15px;
-  border-radius: 8px;
+    margin-bottom: 35px; /* Jarak antar blok agar tidak sesak */
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent; /* Agar transisi halus */
 }
 
-.sentence-block.active {
-  background: #f3f3f3;
-}
-
-.typing-input {
-  margin-top: 10px;
-  width: 100%;
-  font-size: 18px;
-  padding: 8px;
-}
-
-.completed {
-  background: #d4edda;
-}
-
-.hidden {
-  display: none;
-}
-
-.pilihan{
-    margin: 5px;
-    text-align: start;
-}
-
-.sentence-block {
-  transition: 0.3s;
-}
-
+/* STATE: Sedang Dibaca (Kuning) */
 .sentence-block.active-reading {
-  background-color: #fff3cd;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    transform: scale(1.01); /* Sedikit membesar agar fokus */
 }
 
+/* STATE: Selesai Diketik (Hijau) */
+.sentence-block.completed {
+    background: #d4edda;
+    border-color: #c3e6cb;
+}
+
+/* TEKS JEPANG & RUBY */
+.japanese {
+    font-size: 1.4rem;
+    line-height: 2.8; /* Ruang extra untuk Furigana */
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+rt {
+    font-size: 0.65rem;
+    color: #7f8c8d;
+}
+
+/* TERJEMAHAN */
+.translation {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 15px;
+    border-left: 3px solid #3498db;
+    padding-left: 12px;
+}
+
+/* INPUT MENGETIK */
+.typing-input {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; /* Agar padding tidak merusak lebar */
+    transition: border-color 0.2s;
+}
+
+.typing-input:focus {
+    outline: none;
+    border-color: #3498db;
+    background-color: #fff;
+}
+
+/* TOMBOL KONTROL */
 .playStop {
-  display: flex;
-  gap: 10px;          /* jarak antar tombol */
-  align-items: center;
-  margin-bottom: 5px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+}
+
+#playBtn, #stopBtn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#playBtn { background-color: #2ecc71; color: white; }
+#stopBtn { background-color: #e74c3c; color: white; }
+
+/* UTILITY */
+.hidden {
+    display: none !important;
 }
