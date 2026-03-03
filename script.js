@@ -1,5 +1,108 @@
 const newsData = [
   {
+    title: "岩手県大船渡市大きな山の火事から1年 <br> Satu tahun sejak kebakaran besar gunung di Kota Ofunato, Prefektur Iwate",
+    content: `
+<div class="sentence-block" data-plain="岩手県大船渡市大きな山の火事から1年">
+  <div class="japanese">
+    <ruby>岩手県大船渡市<rt>いわてけんおおふなとし</rt></ruby>　
+    <ruby>大<rt>おお</rt></ruby>きな
+    <ruby>山<rt>やま</rt></ruby>の
+    <ruby>火事<rt>かじ</rt></ruby>から1
+    <ruby>年<rt>ねん</rt></ruby>
+  </div>
+  <span class="translation">Satu tahun sejak kebakaran besar gunung di Kota Ofunato, Prefektur Iwate</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="岩手県大船渡市であった大きな山の火事から、26日で1年です。">
+  <div class="japanese">
+    <ruby>岩手県大船渡市<rt>いわてけんおおふなとし</rt></ruby>であった
+    <ruby>大<rt>おお</rt></ruby>きな
+    <ruby>山<rt>やま</rt></ruby>の
+    <ruby>火事<rt>かじ</rt></ruby>から、26
+    <ruby>日<rt>にち</rt></ruby>で1
+    <ruby>年<rt>ねん</rt></ruby>です。
+  </div>
+  <span class="translation">Pada tanggal 26 ini, genap satu tahun sejak kebakaran besar gunung yang terjadi di Kota Ofunato, Prefektur Iwate.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="火事は、火が消えるまで40日かかりました。">
+  <div class="japanese">
+    <ruby>火事<rt>かじ</rt></ruby>は、
+    <ruby>火<rt>ひ</rt></ruby>が
+    <ruby>消<rt>き</rt></ruby>えるまで40
+    <ruby>日<rt>にち</rt></ruby>かかりました。
+  </div>
+  <span class="translation">Kebakaran tersebut membutuhkan waktu 40 hari sampai apinya benar-benar padam.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="そして、とても広い3370ヘクタールが焼けました。">
+  <div class="japanese">
+    そして、とても
+    <ruby>広<rt>ひろ</rt></ruby>い3370ヘクタールが
+    <ruby>焼<rt>や</rt></ruby>けました。
+  </div>
+  <span class="translation">Dan, area yang sangat luas sebesar 3370 hektar hangus terbakar.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="226の建物が被害を受けて、1人が亡くなりました。">
+  <div class="japanese">
+    226の
+    <ruby>建物<rt>たてもの</rt></ruby>が
+    <ruby>被害<rt>ひがい</rt></ruby>を
+    <ruby>受<rt>う</rt></ruby>けて、
+    <ruby>1人<rt>ひとり</rt></ruby>が
+    <ruby>亡<rt>な</rt></ruby>くなりました。
+  </div>
+  <span class="translation">Sebanyak 226 bangunan mengalami kerusakan, dan satu orang meninggal dunia.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="今も、26の家族が仮設住宅で生活しています。">
+  <div class="japanese">
+    <ruby>今<rt>いま</rt></ruby>も、26の
+    <ruby>家族<rt>かぞく</rt></ruby>が
+    <ruby>仮設住宅<rt>かせつじゅうたく</rt></ruby>で
+    <ruby>生活<rt>せいかつ</rt></ruby>しています。
+  </div>
+  <span class="translation">Hingga sekarang, 26 keluarga masih tinggal di rumah penampungan sementara.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="岩手県で、26日から、山の火事を防ぐ運動が始まりました。">
+  <div class="japanese">
+    <ruby>岩手県<rt>いわてけん</rt></ruby>で、26
+    <ruby>日<rt>にち</rt></ruby>から、
+    <ruby>山<rt>やま</rt></ruby>の
+    <ruby>火事<rt>かじ</rt></ruby>を
+    <ruby>防<rt>ふせ</rt></ruby>ぐ
+    <ruby>運動<rt>うんどう</rt></ruby>が
+    <ruby>始<rt>はじ</rt></ruby>まりました。
+  </div>
+  <span class="translation">Di Prefektur Iwate, kampanye untuk mencegah kebakaran gunung dimulai sejak tanggal 26.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="大船渡市では、消防の車がまちの中を回って、火事に気をつけるように言いました。">
+  <div class="japanese">
+    <ruby>大船渡市<rt>おおふなとし</rt></ruby>では、
+    <ruby>消防<rt>しょうぼう</rt></ruby>の
+    <ruby>車<rt>くるま</rt></ruby>がまちの
+    <ruby>中<rt>なか</rt></ruby>を
+    <ruby>回<rt>まわ</rt></ruby>って、
+    <ruby>火事<rt>かじ</rt></ruby>に
+    <ruby>気<rt>き</rt></ruby>をつけるように
+    <ruby>言<rt>い</rt></ruby>いました。
+  </div>
+  <span class="translation">Di Kota Ofunato, mobil pemadam kebakaran berkeliling kota dan menghimbau warga untuk berhati-hati terhadap kebakaran.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+    `
+  },
+  {
     title: "東京や高知市で久しぶりに長い時間雨が降った <br> Hujan turun dalam waktu lama untuk pertama kalinya setelah sekian lama di Tokyo dan Kota Kochi.",
     content: `
 <div class="sentence-block" data-plain="東京や高知市で久しぶりに長い時間雨が降った">
