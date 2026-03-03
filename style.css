@@ -1,0 +1,49 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 40px;
+}
+
+.sentence-block {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sentence-block.active {
+  background: #f3f3f3;
+}
+
+.typing-input {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.completed {
+  background: #d4edda;
+}
+
+.hidden {
+  display: none;
+}
+
+.pilihan{
+    margin: 5px;
+    text-align: start;
+}
+
+.sentence-block {
+  transition: 0.3s;
+}
+
+.sentence-block.active-reading {
+  background-color: #fff3cd;
+}
+
+.playStop {
+  display: flex;
+  gap: 10px;          /* jarak antar tombol */
+  align-items: center;
+  margin-bottom: 5px;
+}
