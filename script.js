@@ -525,62 +525,93 @@ function startNews(index) {
 }
 
 function initTyping() {
-
   const blocks = document.querySelectorAll(".sentence-block");
+  const container = document.getElementById("news-container");
+  const menu = document.getElementById("menu");
+  const h1 = document.getElementById("h1");
+  const playBtn = document.getElementById("playBtn");
+  const stopBtn = document.getElementById("stopBtn");
+  
   let currentIndex = 0;
 
-  blocks.forEach(block => {
-    block.querySelector(".typing-input").style.display = "none";
-  });
-
-  let firstInput = blocks[0].querySelector(".typing-input");
-  firstInput.style.display = "block";
-  firstInput.focus();
-
+  // Sembunyikan semua input kecuali yang pertama
   blocks.forEach((block, index) => {
-
     const input = block.querySelector(".typing-input");
-    const correctText = block.dataset.plain;
+    input.style.display = index === 0 ? "block" : "none";
+    if (index === 0) input.focus();
+
+    const correctText = block.dataset.plain.trim();
 
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
-
-        if (input.value === correctText) {
-
-          input.style.display = "none";
-          currentIndex++;
-
-        if (currentIndex >= blocks.length) {
-
-            alert("🎉 Selesai!");
-
-            // Bersihkan konten berita
-            container.innerHTML = "";
-
-            // Tampilkan kembali menu
-            menu.style.display = "grid";
-            h1.style.display = "block";
-
-            // Hilngkan kembali tombol play/stop
-            playBtn.style.display = "none"
-            stopBtn.style.display = "none"
-
-            return;
-        }
-
-          const nextInput = blocks[currentIndex]
-            .querySelector(".typing-input");
-
-          nextInput.style.display = "block";
-          nextInput.focus();
-
+        e.preventDefault(); // Mencegah reload/submit
+        
+        // Cek jawaban (tambahkan .trim() agar spasi di awal/akhir tidak menyalahkan user)
+        if (input.value.trim() === correctText) {
+          handleCorrectAnswer(input, index);
         } else {
-          alert("Masih ada kesalahan.");
+          handleWrongAnswer();
         }
       }
     });
-
   });
+
+  function handleCorrectAnswer(currentInput, index) {
+    currentInput.style.display = "none";
+    currentIndex++;
+
+    if (currentIndex >= blocks.length) {
+      // BERHASIL SELESAI
+      showSuccessAlert();
+    } else {
+      // PINDAH KE KALIMAT BERIKUTNYA
+      const nextBlock = blocks[currentIndex];
+      const nextInput = nextBlock.querySelector(".typing-input");
+      
+      nextInput.style.display = "block";
+      nextInput.focus();
+      
+      // Opsional: Scroll otomatis ke input baru agar tetap di tengah
+      nextBlock.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }
+
+  function handleWrongAnswer() {
+    Swal.fire({
+      title: 'Belum Tepat',
+      text: 'Masih ada kesalahan ketik.',
+      icon: 'error',
+      timer: 2000,
+      showConfirmButton: false,
+      toast: true,
+    });
+  }
+
+  function showSuccessAlert() {
+    Swal.fire({
+      title: 'Selesai!',
+      text: '🎉 Anda telah menyelesaikan bacaan.',
+      icon: 'success',
+      confirmButtonText: 'Oke',
+      confirmButtonColor: '#00695c',
+      allowOutsideClick: false
+    }).then((result) => {
+      if (result.isConfirmed) {
+        resetToMenu();
+      }
+    });
+  }
+
+  function resetToMenu() {
+    container.innerHTML = "";
+    menu.style.display = "grid";
+    if (h1) h1.style.display = "block";
+    if (playBtn) playBtn.style.display = "none";
+    if (stopBtn) stopBtn.style.display = "none";
+    
+    // Scroll kembali ke atas menu
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
 
