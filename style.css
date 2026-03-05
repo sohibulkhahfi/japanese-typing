@@ -166,3 +166,75 @@ rt {
 .hidden {
     display: none !important;
 }
+/* Warna Hijau */
+.pilihan.selesai {
+    border: 2px solid #2ecc71;
+    background-color: #e8f5e9;
+}
+
+/* Warna Emas */
+.pilihan.gold {
+    background: linear-gradient(145deg, #fff9d6, #ffd700);
+    border: 2px solid #ffae00;
+    box-shadow: 0 0 10px #ffd700;
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    from { box-shadow: 0 0 5px #ffd700; }
+    to { box-shadow: 0 0 15px #ffae00; }
+}
+
+.pilihan small {
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 0.75rem; /* Ukuran lebih kecil dari judul */
+}
+
+/* Saat sudah gold, buat teks kecilnya jadi warna cokelat gelap agar kontras */
+.pilihan.gold small {
+    color: #5d4037;
+}
+
+/* Container Link Sumber */
+.source-card {
+    margin-top: 50px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    border: 1px dashed #00695c;
+    text-align: center;
+}
+
+.source-card p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    color: #444;
+    font-weight: 500;
+}
+
+/* Tombol Link yang Menarik */
+.btn-nhk {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #00897b, #00695c);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 105, 92, 0.3);
+}
+
+.btn-nhk:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 105, 92, 0.4);
+    background: linear-gradient(135deg, #009688, #00796b);
+}
+
+.btn-nhk i {
+    font-size: 1.1rem;
+}

@@ -100,7 +100,8 @@ const newsData = [
   <span class="translation">Di Kota Ofunato, mobil pemadam kebakaran berkeliling kota dan menghimbau warga untuk berhati-hati terhadap kebakaran.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
-    `
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026022611202/ne2026022611202.html"
   },
   {
     title: "東京や高知市で久しぶりに長い時間雨が降った <br> Hujan turun dalam waktu lama untuk pertama kalinya setelah sekian lama di Tokyo dan Kota Kochi.",
@@ -197,131 +198,109 @@ const newsData = [
   <span class="translation">Harap berhati-hati.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
-    `
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026022512121/ne2026022512121.html"
   },
   {
-    title: "日本の桜、今年は早く咲くでしょう <br> Bunga Sakura di Jepang, tahun ini akan mekar lebih awal",
+    title: "桜いつもの年より早く咲きそう <br> Sakura sepertinya akan mekar lebih awal dari tahun-tahun biasanya",
     content: `
-<!-- 1 -->
-<div class="sentence-block" data-plain="日本の桜、今年は早く咲くでしょう">
+<div class="sentence-block" data-plain="桜いつもの年より早く咲きそう">
   <div class="japanese">
-    <ruby>日本<rt>にほん</rt></ruby>の
-    <ruby>桜<rt>さくら</rt></ruby>、
-    <ruby>今年<rt>ことし</rt></ruby>は
+    <ruby>桜<rt>さくら</rt></ruby>　
+    いつもの<ruby>年<rt>とし</rt></ruby>より
     <ruby>早<rt>はや</rt></ruby>く
-    <ruby>咲<rt>さ</rt></ruby>くでしょう
+    <ruby>咲<rt>さ</rt></ruby>きそう
   </div>
-  <span class="translation">Bunga Sakura di Jepang, tahun ini akan mekar lebih awal</span>
+  <span class="translation">Sakura sepertinya akan mekar lebih awal dari tahun-tahun biasanya</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<!-- 2 -->
-<div class="sentence-block" data-plain="今年の春、日本の桜はいつもより早く咲くという予想が出ました。">
+<div class="sentence-block" data-plain="今年は、桜がいつもの年より早く咲きそうです。">
   <div class="japanese">
-    <ruby>今年<rt>ことし</rt></ruby>の
-    <ruby>春<rt>はる</rt></ruby>、
-    <ruby>日本<rt>にほん</rt></ruby>の
-    <ruby>桜<rt>さくら</rt></ruby>はいつもより
+    <ruby>今年<rt>ことし</rt></ruby>は、
+    <ruby>桜<rt>さくら</rt></ruby>がいつもの
+    <ruby>年<rt>とし</rt></ruby>より
     <ruby>早<rt>はや</rt></ruby>く
-    <ruby>咲<rt>さ</rt></ruby>くという
-    <ruby>予想<rt>よそう</rt></ruby>が
-    <ruby>出<rt>で</rt></ruby>ました。
+    <ruby>咲<rt>さ</rt></ruby>きそうです。
   </div>
-  <span class="translation">Pada musim semi tahun ini, muncul prediksi bahwa sakura di Jepang akan mekar lebih awal dari biasanya.</span>
+  <span class="translation">Tahun ini, bunga sakura tampaknya akan mekar lebih awal dari tahun biasanya.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<!-- 3 -->
-<div class="sentence-block" data-plain="気象庁は二月二十六日に新しい情報を発表しました。">
+<div class="sentence-block" data-plain="天気予報をする会社などは、桜がいつ咲くか、予想しています。">
   <div class="japanese">
-    <ruby>気象庁<rt>きしょうちょう</rt></ruby>は
-    <ruby>二月<rt>にがつ</rt></ruby>
-    <ruby>二十六日<rt>にじゅうろくにち</rt></ruby>に
-    <ruby>新<rt>あたら</rt></ruby>しい
-    <ruby>情報<rt>じょうほう</rt></ruby>を
-    <ruby>発表<rt>はっぴょう</rt></ruby>しました。
+    <ruby>天気予報<rt>てんきよほう</rt></ruby>をする
+    <ruby>会社<rt>かいしゃ</rt></ruby>などは、
+    <ruby>桜<rt>さくら</rt></ruby>がいつ
+    <ruby>咲<rt>さ</rt></ruby>くか、
+    <ruby>予想<rt>よそう</rt></ruby>しています。
   </div>
-  <span class="translation">Badan Meteorologi mengumumkan informasi terbaru pada tanggal 26 Februari.</span>
+  <span class="translation">Perusahaan peramal cuaca dan pihak lainnya sedang memprediksi kapan sakura akan mekar.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<!-- 4 -->
-<div class="sentence-block" data-plain="東京と福岡では三月二十日に咲き始めるでしょう。">
+<div class="sentence-block" data-plain="日本気象協会は今年いちばん早く咲くのは東京と福岡で、3月20日だと言っています。">
   <div class="japanese">
+    <ruby>日本気象協会<rt>にほんきしょうきょうかい</rt></ruby>は
+    <ruby>今年<rt>ことし</rt></ruby>いちばん
+    <ruby>早<rt>はや</rt></ruby>く
+    <ruby>咲<rt>さ</rt></ruby>くのは
     <ruby>東京<rt>とうきょう</rt></ruby>と
-    <ruby>福岡<rt>ふくおか</rt></ruby>では
-    <ruby>三月<rt>さんがつ</rt></ruby>
-    <ruby>二十日<rt>はつか</rt></ruby>に
-    <ruby>咲<rt>さ</rt></ruby>き
-    <ruby>始<rt>はじ</rt></ruby>めるでしょう。
+    <ruby>福岡<rt>ふくおか</rt></ruby>で、3
+    <ruby>月<rt>がつ</rt></ruby>
+    <ruby>20日<rt>はつか</rt></ruby>だと言っています。
   </div>
-  <span class="translation">Di Tokyo dan Fukuoka, sakura akan mulai mekar pada tanggal 20 Maret.</span>
+  <span class="translation">Asosiasi Meteorologi Jepang mengatakan bahwa tahun ini sakura akan mekar paling awal di Tokyo dan Fukuoka pada tanggal 20 Maret.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<!-- 5 -->
-<div class="sentence-block" data-plain="名古屋と高知は三月二十一日、大阪は三月二十四日に咲く予定です。">
+<div class="sentence-block" data-plain="大阪は24日に咲くと言っています。">
   <div class="japanese">
-    <ruby>名古屋<rt>なごや</rt></ruby>と
-    <ruby>高知<rt>こうち</rt></ruby>は
-    <ruby>三月<rt>さんがつ</rt></ruby>
-    <ruby>二十一日<rt>にじゅういちにち</rt></ruby>、
     <ruby>大阪<rt>おおさか</rt></ruby>は
-    <ruby>三月<rt>さんがつ</rt></ruby>
-    <ruby>二十四日<rt>にじゅうよっか</rt></ruby>に
-    <ruby>咲<rt>さ</rt></ruby>く
-    <ruby>予定<rt>よてい</rt></ruby>です。
+    <ruby>24日<rt>にじゅうよっか</rt></ruby>に
+    <ruby>咲<rt>さ</rt></ruby>くと言っています。
   </div>
-  <span class="translation">Nagoya dan Kochi dijadwalkan mekar pada 21 Maret, dan Osaka pada 24 Maret.</span>
+  <span class="translation">Mereka mengatakan di Osaka akan mekar pada tanggal 24.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<!-- 6 -->
-<div class="sentence-block" data-plain="北の方にある仙台は四月一日、札幌は四月二十七日になるでしょう。">
+<div class="sentence-block" data-plain="日本気象協会は、1月にとても寒い日があって2月に暖かい日が多かったので、いつもの年より早く咲きそうだと言っています。">
   <div class="japanese">
-    <ruby>北<rt>きた</rt></ruby>の
-    <ruby>方<rt>ほう</rt></ruby>にある
-    <ruby>仙台<rt>せんだい</rt></ruby>は
-    <ruby>四月<rt>しがつ</rt></ruby>
-    <ruby>一日<rt>ついたち</rt></ruby>、
-    <ruby>札幌<rt>さっぽろ</rt></ruby>は
-    <ruby>四月<rt>しがつ</rt></ruby>
-    <ruby>二十七日<rt>にじゅうななにち</rt></ruby>になるでしょう。
-  </div>
-  <span class="translation">Sendai yang berada di arah utara akan mekar pada 1 April, dan Sapporo pada 27 April.</span>
-  <input class="typing-input" type="text" autocomplete="off">
-</div>
-
-<!-- 7 -->
-<div class="sentence-block" data-plain="今年の一月はとても寒かったですが、二月と三月は暖かい日が多いです。">
-  <div class="japanese">
-    <ruby>今年<rt>ことし</rt></ruby>の
-    <ruby>一月<rt>いちがつ</rt></ruby>はとても
-    <ruby>寒<rt>さむ</rt></ruby>かったですが、
-    <ruby>二月<rt>にがつ</rt></ruby>と
-    <ruby>三月<rt>さんがつ</rt></ruby>は
+    <ruby>日本気象協会<rt>にほんきしょうきょうかい</rt></ruby>は、1
+    <ruby>月<rt>がつ</rt></ruby>にとても
+    <ruby>寒<rt>さむ</rt></ruby>い
+    <ruby>日<rt>ひ</rt></ruby>があって2
+    <ruby>月<rt>がつ</rt></ruby>に
     <ruby>暖<rt>あたた</rt></ruby>かい
     <ruby>日<rt>ひ</rt></ruby>が
-    <ruby>多<rt>おお</rt></ruby>いです。
+    <ruby>多<rt>おお</rt></ruby>かったので、いつもの
+    <ruby>年<rt>とし</rt></ruby>より
+    <ruby>早<rt>はや</rt></ruby>く
+    <ruby>咲<rt>さ</rt></ruby>きそうだと言っています。
   </div>
-  <span class="translation">Bulan Januari tahun ini sangat dingin, tetapi bulan Februari dan Maret banyak hari yang hangat.</span>
+  <span class="translation">Asosiasi Meteorologi Jepang mengatakan bahwa karena ada hari-hari yang sangat dingin di bulan Januari dan banyak hari-hari hangat di bulan Februari, sakura sepertinya akan mekar lebih awal dari biasanya.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<!-- 8 -->
-<div class="sentence-block" data-plain="だから、桜の花が早く開く準備をしています。">
+<div class="sentence-block" data-plain="別の会社ウェザーマップは、東京で3月16日、福岡で17日、大阪で22日に咲くと言っています。">
   <div class="japanese">
-    だから、
-    <ruby>桜<rt>さくら</rt></ruby>の
-    <ruby>花<rt>はな</rt></ruby>が
-    <ruby>早<rt>はや</rt></ruby>く
-    <ruby>開<rt>ひら</rt></ruby>く
-    <ruby>準備<rt>じゅんび</rt></ruby>をしています。
+    <ruby>別<rt>べつ</rt></ruby>の
+    <ruby>会社<rt>かいしゃ</rt></ruby>ウェザーマップは、
+    <ruby>東京<rt>とうきょう</rt></ruby>で3
+    <ruby>月<rt>がつ</rt></ruby>16
+    <ruby>日<rt>にち</rt></ruby>、
+    <ruby>福岡<rt>ふくおか</rt></ruby>で17
+    <ruby>日<rt>にち</rt></ruby>、
+    <ruby>大阪<rt>おおさか</rt></ruby>で22
+    <ruby>日<rt>にち</rt></ruby>に
+    <ruby>咲<rt>さ</rt></ruby>くと
+    <ruby>言<rt>い</rt></ruby>っています。
   </div>
-  <span class="translation">Oleh karena itu, bunga sakura sedang bersiap untuk mekar lebih cepat.</span>
+  <span class="translation">Perusahaan lain, Weather Map, mengatakan bahwa di Tokyo akan mekar pada 16 Maret, di Fukuoka pada tanggal 17, dan di Osaka pada tanggal 22.</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
-    `
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026022711394/ne2026022711394.html"
   },
 
   {
@@ -407,7 +386,8 @@ const newsData = [
   <span class="translation">Pihak perusahaan mengatakan, "Kami memohon maaf atas ketidaknyamanan yang ditimbulkan."</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
-    `
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026022612087/ne2026022612087.html"
   },
 
   {
@@ -494,199 +474,217 @@ const newsData = [
   <span class="translation">Seorang pria lansia mengatakan, "Saya menantikan musim semi."</span>
   <input class="typing-input" type="text" autocomplete="off">
 </div>
-    `
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026022612037/ne2026022612037.html"
   }
 ];
 
+// 1. Variabel Global (Taruh di paling atas)
 const menu = document.getElementById("menu");
 const container = document.getElementById("news-container");
-const playBtn = document.getElementById("playBtn")
-const stopBtn = document.getElementById("stopBtn")
-const h1 = document.getElementById("h1")
+const playBtn = document.getElementById("playBtn");
+const stopBtn = document.getElementById("stopBtn");
+const h1 = document.getElementById("h1");
 
-newsData.forEach((news, index) => {
-  const button = document.createElement("button");
-  button.innerHTML = news.title;
-  button.classList = 'pilihan';
-  button.onclick = () => startNews(index);
-  menu.appendChild(button);
-});
-
-function startNews(index) {
-
-  menu.style.display = "none";
-  h1.style.display = "none";
-  playBtn.style.display = "block"
-  stopBtn.style.display = "block"
-
-  container.innerHTML = newsData[index].content;
-
-  initTyping();
-}
-
-function initTyping() {
-  const blocks = document.querySelectorAll(".sentence-block");
-  const container = document.getElementById("news-container");
-  const menu = document.getElementById("menu");
-  const h1 = document.getElementById("h1");
-  const playBtn = document.getElementById("playBtn");
-  const stopBtn = document.getElementById("stopBtn");
-  
-  let currentIndex = 0;
-
-  // Sembunyikan semua input kecuali yang pertama
-  blocks.forEach((block, index) => {
-    const input = block.querySelector(".typing-input");
-    input.style.display = index === 0 ? "block" : "none";
-    if (index === 0) input.focus();
-
-    const correctText = block.dataset.plain.trim();
-
-    input.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        e.preventDefault(); // Mencegah reload/submit
-        
-        // Cek jawaban (tambahkan .trim() agar spasi di awal/akhir tidak menyalahkan user)
-        if (input.value.trim() === correctText) {
-          handleCorrectAnswer(input, index);
-        } else {
-          handleWrongAnswer();
-        }
-      }
-    });
-  });
-
-  function handleCorrectAnswer(currentInput, index) {
-    currentInput.style.display = "none";
-    currentIndex++;
-
-    if (currentIndex >= blocks.length) {
-      // BERHASIL SELESAI
-      showSuccessAlert();
-    } else {
-      // PINDAH KE KALIMAT BERIKUTNYA
-      const nextBlock = blocks[currentIndex];
-      const nextInput = nextBlock.querySelector(".typing-input");
-      
-      nextInput.style.display = "block";
-      nextInput.focus();
-      
-      // Opsional: Scroll otomatis ke input baru agar tetap di tengah
-      nextBlock.scrollIntoView({ behavior: "smooth", block: "center" });
-    }
-  }
-
-  function handleWrongAnswer() {
-    Swal.fire({
-      title: 'Belum Tepat',
-      text: 'Masih ada kesalahan ketik.',
-      icon: 'error',
-      timer: 2000,
-      showConfirmButton: false,
-      toast: true,
-    });
-  }
-
-  function showSuccessAlert() {
-    Swal.fire({
-      title: 'Selesai!',
-      text: '🎉 Anda telah menyelesaikan bacaan.',
-      icon: 'success',
-      confirmButtonText: 'Oke',
-      confirmButtonColor: '#00695c',
-      allowOutsideClick: false
-    }).then((result) => {
-      if (result.isConfirmed) {
-        resetToMenu();
-      }
-    });
-  }
-
-  function resetToMenu() {
-    container.innerHTML = "";
-    menu.style.display = "grid";
-    if (h1) h1.style.display = "block";
-    if (playBtn) playBtn.style.display = "none";
-    if (stopBtn) stopBtn.style.display = "none";
-    
-    // Scroll kembali ke atas menu
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-}
-
-
+let currentIndexNews = 0; // Untuk melacak berita mana yang sedang dibuka
 let isReading = false;
 let currentReadIndex = 0;
 
+// 2. Fungsi Menampilkan Menu
+function tampilkanMenu() {
+    menu.innerHTML = "";
+    const progress = JSON.parse(localStorage.getItem("typingProgress")) || {};
+
+    newsData.forEach((news, index) => {
+        const button = document.createElement("button");
+        
+        // 1. Ambil jumlah latihan dari localStorage
+        const count = progress[news.title] || 0;
+
+        // 2. Format tampilan judul: Jika sudah pernah (count > 0), tambahkan teks "Nx"
+        // Kita gunakan <br> agar angka latihan berada di baris baru dan terlihat rapi
+        const countText = count > 0 ? `<br><small style="opacity: 0.8;">(${count}x Selesai)</small>` : "";
+        button.innerHTML = news.title + countText;
+
+        button.classList = 'pilihan';
+
+        // 3. Logika Warna
+        if (count >= 10) {
+            button.classList.add("gold");
+        } else if (count > 0) {
+            button.classList.add("selesai");
+        }
+
+        button.onclick = () => startNews(index);
+        menu.appendChild(button);
+    });
+}
+
+// Panggil pertama kali
+tampilkanMenu();
+
+// 3. Fungsi Memulai Berita
+function startNews(index) {
+    currentIndexNews = index;
+    menu.style.display = "none";
+    h1.style.display = "none";
+    
+    // Pastikan tombol TTS disembunyikan jika tidak dipakai
+    playBtn.style.display = "none";
+    stopBtn.style.display = "none";
+
+    container.innerHTML = newsData[index].content;
+
+    // Tambahkan Card Sumber yang Menarik
+    if (newsData[index].sc) {
+        const sourceCard = document.createElement("div");
+        sourceCard.className = "source-card";
+        sourceCard.innerHTML = `
+            <p>🎧 Dengarkan audio asli dan video berita di situs resmi:</p>
+            <a href="${newsData[index].sc}" target="_blank" class="btn-nhk">
+                Buka NHK News Web Easy 
+                <span style="font-size: 0.8rem;">↗</span>
+            </a>
+        `;
+        container.appendChild(sourceCard);
+    }
+
+    initTyping();
+}
+
+// 4. Logika Mengetik
+function initTyping() {
+    const blocks = document.querySelectorAll(".sentence-block");
+    let currentIndex = 0;
+
+    blocks.forEach((block, index) => {
+        const input = block.querySelector(".typing-input");
+        input.style.display = index === 0 ? "block" : "none";
+        if (index === 0) input.focus();
+
+        const correctText = block.dataset.plain.trim();
+
+        input.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                if (input.value.trim() === correctText) {
+                    handleCorrectAnswer(input);
+                } else {
+                    handleWrongAnswer();
+                }
+            }
+        });
+    });
+
+    function handleCorrectAnswer(currentInput) {
+        currentInput.style.display = "none";
+        currentIndex++;
+
+        if (currentIndex >= blocks.length) {
+            showSuccessAlert();
+        } else {
+            const nextBlock = blocks[currentIndex];
+            const nextInput = nextBlock.querySelector(".typing-input");
+            nextInput.style.display = "block";
+            nextInput.focus();
+            nextBlock.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+    }
+
+    function showSuccessAlert() {
+        Swal.fire({
+            title: 'Selesai!',
+            text: '🎉 Anda telah menyelesaikan bacaan.',
+            icon: 'success',
+            confirmButtonText: 'Oke',
+            confirmButtonColor: '#00695c',
+            allowOutsideClick: false
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // SIMPAN PROGRES
+                const titleAktif = newsData[currentIndexNews].title;
+                let progress = JSON.parse(localStorage.getItem("typingProgress")) || {};
+                progress[titleAktif] = (progress[titleAktif] || 0) + 1;
+                localStorage.setItem("typingProgress", JSON.stringify(progress));
+
+                // KEMBALI KE MENU
+                resetToMenu();
+            }
+        });
+    }
+
+    function handleWrongAnswer() {
+        Swal.fire({
+            title: 'Belum Tepat',
+            text: 'Masih ada kesalahan ketik.',
+            icon: 'error',
+            timer: 2000,
+            showConfirmButton: false,
+            toast: true,
+        });
+    }
+
+    function resetToMenu() {
+        container.innerHTML = "";
+        menu.style.display = "grid";
+        h1.style.display = "block";
+        playBtn.style.display = "none";
+        stopBtn.style.display = "none";
+        speechSynthesis.cancel(); // Matikan suara jika masih ada
+        isReading = false;
+        tampilkanMenu(); // Refresh warna tombol di menu
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+}
+
+// 5. Logika Suara (Speech)
 playBtn.addEventListener("click", () => {
-  if (isReading) return;
-
-  isReading = true;
-  currentReadIndex = 0;
-
-  readNextSentence();
+    if (isReading) return;
+    isReading = true;
+    currentReadIndex = 0;
+    readNextSentence();
 });
 
 stopBtn.addEventListener("click", () => {
-  speechSynthesis.cancel();
-  isReading = false;
-  removeHighlight();
+    speechSynthesis.cancel();
+    isReading = false;
+    removeHighlight();
 });
 
 function readNextSentence() {
+    const blocks = document.querySelectorAll(".sentence-block");
+    if (currentReadIndex >= blocks.length) {
+        isReading = false;
+        removeHighlight();
+        return;
+    }
 
-  const blocks = document.querySelectorAll(".sentence-block");
+    const block = blocks[currentReadIndex];
+    const text = block.dataset.plain;
 
-  if (currentReadIndex >= blocks.length) {
-    isReading = false;
-    removeHighlight();
-    return;
-  }
+    highlightBlock(block);
 
-  const block = blocks[currentReadIndex];
-  const text = block.dataset.plain;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "ja-JP";
+    utterance.rate = 0.7;
 
-  highlightBlock(block);
-  block.focus();
+    utterance.onend = () => {
+        if (isReading) {
+            currentReadIndex++;
+            readNextSentence();
+        }
+    };
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "ja-JP"; // penting untuk Jepang
-  utterance.rate = 0.7;
-
-  utterance.onend = () => {
-    currentReadIndex++;
-    readNextSentence();
-  };
-
-  speechSynthesis.speak(utterance);
+    speechSynthesis.speak(utterance);
 }
 
 function highlightBlock(activeBlock) {
-
-  const blocks = document.querySelectorAll(".sentence-block");
-
-  blocks.forEach(block => {
-    block.classList.remove("active-reading");
-  });
-
-  activeBlock.classList.add("active-reading");
-
-  activeBlock.scrollIntoView({
-    behavior: "smooth",   // Efek gulir halus, bukan melompat kaku
-    block: "center"       // Memposisikan elemen tepat di tengah layar secara vertikal
-  });
+    removeHighlight();
+    activeBlock.classList.add("active-reading");
+    activeBlock.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 function removeHighlight() {
-  const blocks = document.querySelectorAll(".sentence-block");
-  blocks.forEach(block => {
-    block.classList.remove("active-reading");
-  });
-}
-
-function scrollToCenter(element) {
-  element.scrollIntoView({
-    behavior: "smooth",
-    block: "center"
-  });
+    const blocks = document.querySelectorAll(".sentence-block");
+    blocks.forEach(block => block.classList.remove("active-reading"));
 }
