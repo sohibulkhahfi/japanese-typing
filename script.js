@@ -1,5 +1,223 @@
 const newsData = [
   {
+    title: "とても高い「のどぐろ」近畿大学が完全養殖に成功<br> Ikan Nodoguro yang sangat mahal, Universitas Kindai berhasil melakukan budidaya penuh",
+    content: `
+<div class="sentence-block" data-plain="とても高い「のどぐろ」近畿大学が完全養殖に成功">
+  <div class="japanese">
+    とても<ruby>高<rt>たか</rt></ruby>い「のどぐろ」
+    <ruby>近畿大学<rt>きんきだいがく</rt></ruby>が
+    <ruby>完全<rt>かんぜん</rt></ruby>
+    <ruby>養殖<rt>ようしょく</rt></ruby>に
+    <ruby>成功<rt>せいこう</rt></ruby>
+  </div>
+  <span class="translation">Ikan Nodoguro yang sangat mahal, Universitas Kindai berhasil melakukan budidaya penuh</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="「のどぐろ」は、とてもおいしくて、とても値段が高い魚です。">
+  <div class="japanese">
+    「のどぐろ」は、とてもおいしくて、とても
+    <ruby>値段<rt>ねだん</rt></ruby>が
+    <ruby>高<rt>たか</rt></ruby>い
+    <ruby>魚<rt>さかな</rt></ruby>です。
+  </div>
+  <span class="translation">"Nodoguro" adalah ikan yang sangat lezat dan harganya sangat mahal.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="人が育てる、養殖では、90％がオスになってしまって、難しいと言われています。">
+  <div class="japanese">
+    <ruby>人<rt>ひと</rt></ruby>が
+    <ruby>育<rt>そだ</rt></ruby>てる、
+    <ruby>養殖<rt>ようしょく</rt></ruby>では、90％がオスになってしまって、
+    <ruby>難<rt>むずか</rt></ruby>しいと
+    <ruby>言<rt>い</rt></ruby>われています。
+  </div>
+  <span class="translation">Dalam budidaya (dibesarkan oleh manusia), dikatakan sulit karena 90% di antaranya menjadi jantan.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="この「のどぐろ」の完全養殖に、近畿大学のグループが、成功したと言いました。">
+  <div class="japanese">
+    この「のどぐろ」の
+    <ruby>完全<rt>かんぜん</rt></ruby>
+    <ruby>養殖<rt>ようしょく</rt></ruby>に、
+    <ruby>近畿大学<rt>きんきだいがく</rt></ruby>のグループが、
+    <ruby>成功<rt>せいこう</rt></ruby>したと
+    <ruby>言<rt>い</rt></ruby>いました。
+  </div>
+  <span class="translation">Kelompok dari Universitas Kindai mengumumkan bahwa mereka telah berhasil melakukan budidaya penuh pada ikan "Nodoguro" ini.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="完全養殖は、養殖した魚の卵を取るところから大きくなるまで、人が育てることです。">
+  <div class="japanese">
+    <ruby>完全<rt>かんぜん</rt></ruby>
+    <ruby>養殖<rt>ようしょく</rt></ruby>は、
+    <ruby>養殖<rt>ようしょく</rt></ruby>した
+    <ruby>魚<rt>さかな</rt></ruby>の
+    <ruby>卵<rt>たまご</rt></ruby>を
+    <ruby>取<rt>と</rt></ruby>るところから
+    <ruby>大<rt>おお</rt></ruby>きくなるまで、
+    <ruby>人<rt>ひと</rt></ruby>が
+    <ruby>育<rt>そだ</rt></ruby>てることです。
+  </div>
+  <span class="translation">Budidaya penuh adalah proses di mana manusia membesarkan ikan mulai dari pengambilan telur ikan hasil budidaya hingga ikan tersebut menjadi besar.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="グループは、養殖した魚から36万個の卵を取りました。">
+  <div class="japanese">
+    グループは、
+    <ruby>養殖<rt>ようしょく</rt></ruby>した
+    <ruby>魚<rt>さかな</rt></ruby>から36
+    <ruby>万<rt>まん</rt></ruby>
+    <ruby>個<rt>こ</rt></ruby>の
+    <ruby>卵<rt>たまご</rt></ruby>を
+    <ruby>取<rt>と</rt></ruby>りました。
+  </div>
+  <span class="translation">Kelompok tersebut mengambil 360.000 butir telur dari ikan yang dibudidayakan.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="この卵から、去年10月、3万6千匹の魚が生まれて、成功したと言いました。">
+  <div class="japanese">
+    この
+    <ruby>卵<rt>たまご</rt></ruby>から、
+    <ruby>去年<rt>きょねん</rt></ruby>10
+    <ruby>月<rt>がつ</rt></ruby>、
+    <ruby>3万<rt>さんまん</rt></ruby>
+    <ruby>6千<rt>ろくせん</rt></ruby>
+    <ruby>匹<rt>びき</rt></ruby>の
+    <ruby>魚<rt>さかな</rt></ruby>が
+    <ruby>生<rt>う</rt></ruby>まれて、
+    <ruby>成功<rt>せいこう</rt></ruby>したと
+    <ruby>言<rt>い</rt></ruby>いました。
+  </div>
+  <span class="translation">Dari telur-telur ini, pada Oktober tahun lalu, 36.000 ekor ikan lahir, dan mereka menyatakan bahwa upaya tersebut berhasil.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="グループによると、「のどぐろ」の完全養殖は、世界で初めてです。">
+  <div class="japanese">
+    グループによると、「のどぐろ」の
+    <ruby>完全<rt>かんぜん</rt></ruby>
+    <ruby>養殖<rt>ようしょく</rt></ruby>は、
+    <ruby>世界<rt>せかい</rt></ruby>で
+    <ruby>初<rt>はじ</rt></ruby>めてです。
+  </div>
+  <span class="translation">Menurut kelompok tersebut, budidaya penuh ikan "Nodoguro" ini adalah yang pertama di dunia.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026020612247/ne2026020612247.html"
+  },
+  {
+    title: "姫路城の料金市民でない人は2500円に上がった <br> Biaya masuk Kastel Himeji naik menjadi 2500 yen bagi orang yang bukan warga setempat",
+    content: `
+<div class="sentence-block" data-plain="姫路城の料金市民でない人は2500円に上がった">
+  <div class="japanese">
+    <ruby>姫路城<rt>ひめじじょう</rt></ruby>の
+    <ruby>料金<rt>りょうきん</rt></ruby>
+    <ruby>市民<rt>しみん</rt></ruby>でない
+    <ruby>人<rt>ひと</rt></ruby>は2500
+    <ruby>円<rt>えん</rt></ruby>に
+    <ruby>上<rt>あ</rt></ruby>がった
+  </div>
+  <span class="translation">Biaya masuk Kastel Himeji naik menjadi 2500 yen bagi orang yang bukan warga setempat</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="兵庫県姫路市に姫路城というお城があります。有名なお城で、世界遺産です。">
+  <div class="japanese">
+    <ruby>兵庫県姫路市<rt>ひょうごけんひめじし</rt></ruby>に
+    <ruby>姫路城<rt>ひめじじょう</rt></ruby>というお
+    <ruby>城<rt>しろ</rt></ruby>があります。
+    <ruby>有名<rt>ゆうめい</rt></ruby>なお
+    <ruby>城<rt>しろ</rt></ruby>で、
+    <ruby>世界遺産<rt>せかいいさん</rt></ruby>です。
+  </div>
+  <span class="translation">Di Kota Himeji, Prefektur Hyogo, terdapat kastel bernama Kastel Himeji. Ini adalah kastel terkenal dan merupakan Situs Warisan Dunia.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="このお城に入るときの金が、1日から変わりました。">
+  <div class="japanese">
+    このお<ruby>城<rt>しろ</rt></ruby>に
+    <ruby>入<rt>はい</rt></ruby>る
+    <ruby>時<rt>とき</rt></ruby>のお
+    <ruby>金<rt>かね</rt></ruby>が、1
+    <ruby>日<rt>ついたち</rt></ruby>から
+    <ruby>変<rt>か</rt></ruby>わりました。
+  </div>
+  <span class="translation">Biaya masuk ke kastel ini telah berubah mulai tanggal 1.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="姫路市に住んでいない人は2500円に上がりました。">
+  <div class="japanese">
+    <ruby>姫路市<rt>ひめじし</rt></ruby>に
+    <ruby>住<rt>す</rt></ruby>んでいない
+    <ruby>人<rt>ひと</rt></ruby>は2500
+    <ruby>円<rt>えん</rt></ruby>に
+    <ruby>上<rt>あ</rt></ruby>がりました。
+  </div>
+  <span class="translation">Bagi orang yang tidak tinggal di Kota Himeji, biayanya naik menjadi 2500 yen.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="しかし姫路市の18歳以上の人は、これまでと同じで1000円です。">
+  <div class="japanese">
+    しかし<ruby>姫路市<rt>ひめじし</rt></ruby>の18
+    <ruby>歳<rt>さい</rt></ruby>
+    <ruby>以上<rt>いじょう</rt></ruby>の
+    <ruby>人<rt>ひと</rt></ruby>は、これまでと
+    <ruby>同<rt>おな</rt></ruby>じで1000
+    <ruby>円<rt>えん</rt></ruby>です。
+  </div>
+  <span class="translation">Namun, bagi warga Kota Himeji yang berusia 18 tahun ke atas, biayanya tetap sama seperti sebelumnya, yaitu 1000 yen.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="市は「お城の壁や石垣などを守っていくために使う。そして姫路城の価値を上げる」と言っています。">
+  <div class="japanese">
+    <ruby>市<rt>し</rt></ruby>は「お
+    <ruby>城<rt>しろ</rt></ruby>の
+    <ruby>壁<rt>かべ</rt></ruby>や
+    <ruby>石垣<rt>いしがき</rt></ruby>などを
+    <ruby>守<rt>まも</rt></ruby>っていくために
+    <ruby>使<rt>つか</rt></ruby>う。そして
+    <ruby>姫路城<rt>ひめじじょう</rt></ruby>の
+    <ruby>価値<rt>かち</rt></ruby>を
+    <ruby>上<rt>あ</rt></ruby>げる」と
+    <ruby>言<rt>い</rt></ruby>っています。
+  </div>
+  <span class="translation">Pemerintah kota mengatakan, "Uang tersebut akan digunakan untuk melindungi dinding dan tembok batu kastel. Serta untuk meningkatkan nilai Kastel Himeji."</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="千葉県から来た人は「お城が好きなので来ました。高くなったお金は世界遺産を守るために使ってほしい」と話していました。">
+  <div class="japanese">
+    <ruby>千葉県<rt>ちばけん</rt></ruby>から
+    <ruby>来<rt>き</rt></ruby>た
+    <ruby>人<rt>ひと</rt></ruby>は「お
+    <ruby>城<rt>しろ</rt></ruby>が
+    <ruby>好<rt>す</rt></ruby>きなので
+    <ruby>来<rt>き</rt></ruby>ました。
+    <ruby>高<rt>たか</rt></ruby>くなったお
+    <ruby>金<rt>かね</rt></ruby>は
+    <ruby>世界遺産<rt>せかいいさん</rt></ruby>を
+    <ruby>守<rt>まも</rt></ruby>るために
+    <ruby>使<rt>つか</rt></ruby>ってほしい」と
+    <ruby>話<rt>はな</rt></ruby>していました。
+  </div>
+  <span class="translation">Seseorang yang datang dari Prefektur Chiba mengatakan, "Saya datang karena saya suka kastel. Saya ingin uang yang lebih mahal itu digunakan untuk melindungi Situs Warisan Dunia."</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2026030212162/ne2026030212162.html"
+  },
+  {
     title: "岩手県大船渡市大きな山の火事から1年 <br> Satu tahun sejak kebakaran besar gunung di Kota Ofunato, Prefektur Iwate",
     content: `
 <div class="sentence-block" data-plain="岩手県大船渡市大きな山の火事から1年">
@@ -206,7 +424,7 @@ const newsData = [
     content: `
 <div class="sentence-block" data-plain="桜いつもの年より早く咲きそう">
   <div class="japanese">
-    <ruby>桜<rt>さくら</rt></ruby>　
+    <ruby>桜<rt>さくら</rt></ruby>
     いつもの<ruby>年<rt>とし</rt></ruby>より
     <ruby>早<rt>はや</rt></ruby>く
     <ruby>咲<rt>さ</rt></ruby>きそう
@@ -419,14 +637,14 @@ const newsData = [
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<div class="sentence-block" data-plain="花の色が白から紅に変わります。このため、紅と白の花が一緒に咲いているように見えます。">
+<div class="sentence-block" data-plain="花の色が白から赤に変わります。このため、赤と白の花が一緒に咲いているように見えます。">
   <div class="japanese">
     <ruby>花<rt>はな</rt></ruby>の
     <ruby>色<rt>いろ</rt></ruby>が
     <ruby>白<rt>しろ</rt></ruby>から
-    <ruby>紅<rt>あか</rt></ruby>に
+    <ruby>赤<rt>あか</rt></ruby>に
     <ruby>変<rt>か</rt></ruby>わります。このため、
-    <ruby>紅<rt>あか</rt></ruby>と
+    <ruby>赤<rt>あか</rt></ruby>と
     <ruby>白<rt>しろ</rt></ruby>の
     <ruby>花<rt>はな</rt></ruby>が
     <ruby>一緒<rt>いっしょ</rt></ruby>に
@@ -476,6 +694,303 @@ const newsData = [
 </div>
     `,
     sc:"https://news.web.nhk/news/easy/ne2026022612037/ne2026022612037.html"
+  },
+
+  {
+    title: "岩手県岩泉町柿の木の熊をライフル銃を使って捕まえに行く<br>Kota Iwaizumi, Prefektur Iwate: Upaya menangkap beruang di pohon kesemek menggunakan senapan laras panjang",
+    content: `
+<div class="sentence-block" data-plain="岩手県岩泉町柿の木の熊をライフル銃を使って捕まえに行く">
+  <div class="japanese">
+    <ruby>岩手県岩泉町<rt>いわてけんいわいずみちょう</rt></ruby>
+    <ruby>柿<rt>かき</rt></ruby>の
+    <ruby>木<rt>き</rt></ruby>の
+    <ruby>熊<rt>くま</rt></ruby>をライフル
+    <ruby>銃<rt>じゅう</rt></ruby>を
+    <ruby>使<rt>つか</rt></ruby>って
+    <ruby>捕<rt>つか</rt></ruby>まえに
+    <ruby>行<rt>い</rt></ruby>く
+  </div>
+  <span class="translation">Kota Iwaizumi, Prefektur Iwate: Upaya menangkap beruang di pohon kesemek menggunakan senapan laras panjang</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="岩手県岩泉町の熊のニュースです。">
+  <div class="japanese">
+    <ruby>岩手県岩泉町<rt>いわてけんいわいずみちょう</rt></ruby>の
+    <ruby>熊<rt>くま</rt></ruby>のニュースです。
+  </div>
+  <span class="translation">Ini adalah berita tentang beruang di Kota Iwaizumi, Prefektur Iwate.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="2頭の熊が、17日と18日、町の中に来ました。">
+  <div class="japanese">
+    2<ruby>頭<rt>とう</rt></ruby>の
+    <ruby>熊<rt>くま</rt></ruby>が、17
+    <ruby>日<rt>にち</rt></ruby>と18
+    <ruby>日<rt>にち</rt></ruby>、
+    <ruby>町<rt>まち</rt></ruby>の
+    <ruby>中<rt>なか</rt></ruby>に
+    <ruby>来<rt>き</rt></ruby>ました。
+  </div>
+  <span class="translation">Dua ekor beruang datang ke dalam kota pada tanggal 17 dan 18.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="柿の木に登って柿を食べていました。">
+  <div class="japanese">
+    <ruby>柿<rt>かき</rt></ruby>の
+    <ruby>木<rt>き</rt></ruby>に
+    <ruby>登<rt>のぼ</rt></ruby>って
+    <ruby>柿<rt>かき</rt></ruby>を
+    <ruby>食<rt>た</rt></ruby>べていました。
+  </div>
+  <span class="translation">Mereka memanjat pohon kesemek dan memakan buahnya.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="このため警察のチームが来て、熊を捕まえるために初めてライフル銃を使いたいと考えました。">
+  <div class="japanese">
+    このため
+    <ruby>警察<rt>けいさつ</rt></ruby>のチームが
+    <ruby>来<rt>き</rt></ruby>て、
+    <ruby>熊<rt>くま</rt></ruby>を
+    <ruby>捕<rt>つか</rt></ruby>まえるために
+    <ruby>初<rt>はじ</rt></ruby>めてライフル
+    <ruby>銃<rt>じゅう</rt></ruby>を
+    <ruby>使<rt>つか</rt></ruby>いたいと
+    <ruby>考<rt>かんが</rt></ruby>えました。
+  </div>
+  <span class="translation">Oleh karena itu, tim polisi datang dan mempertimbangkan untuk pertama kalinya menggunakan senapan laras panjang guna menangkap beruang tersebut.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="しかし、まわりの人の安全を考えると、とても難しいことがわかりました。">
+  <div class="japanese">
+    しかし、まわりの
+    <ruby>人<rt>ひと</rt></ruby>の
+    <ruby>安全<rt>あんぜん</rt></ruby>を
+    <ruby>考<rt>かんが</rt></ruby>えると、とても
+    <ruby>難<rt>むずか</rt></ruby>しいことがわかりました。
+  </div>
+  <span class="translation">Namun, setelah mempertimbangkan keselamatan orang-orang di sekitar, disadari bahwa hal itu sangat sulit dilakukan.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="警察は、18日は仕事をやめて、これからどうしたらいいか考えています。">
+  <div class="japanese">
+    <ruby>警察<rt>けいさつ</rt></ruby>は、18
+    <ruby>日<rt>にち</rt></ruby>は
+    <ruby>仕事<rt>しごと</rt></ruby>をやめて、これからどうしたらいいか
+    <ruby>考<rt>かんが</rt></ruby>えています。
+  </div>
+  <span class="translation">Pihak kepolisian menghentikan operasi pada tanggal 18 dan sedang memikirkan apa yang sebaiknya dilakukan selanjutnya.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="2頭の熊は、夜になっていなくなりました。">
+  <div class="japanese">
+    2<ruby>頭<rt>とう</rt></ruby>の
+    <ruby>熊<rt>くま</rt></ruby>は、
+    <ruby>夜<rt>よる</rt></ruby>になっていなくなりました。
+  </div>
+  <span class="translation">Kedua ekor beruang tersebut menghilang saat malam tiba.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2025111812104/ne2025111812104.html"
+  },
+
+  {
+    title: "熊の被害が続くスクールバスを利用する子どもの安全を考える<br>Kerugian akibat beruang berlanjut: Memikirkan keamanan anak-anak yang menggunakan bus sekolah",
+    content: `
+<div class="sentence-block" data-plain="熊の被害が続くスクールバスを利用する子どもの安全を考える">
+  <div class="japanese">
+    <ruby>熊<rt>くま</rt></ruby>の
+    <ruby>被害<rt>ひがい</rt></ruby>が
+    <ruby>続<rt>つづ</rt></ruby>くスクールバスを
+    <ruby>利用<rt>りよう</rt></ruby>する
+    <ruby>子<rt>こ</rt></ruby>どもの
+    <ruby>安全<rt>あんぜん</rt></ruby>を
+    <ruby>考<rt>かんが</rt></ruby>える
+  </div>
+  <span class="translation">Kerugian akibat beruang berlanjut: Memikirkan keamanan anak-anak yang menggunakan bus sekolah</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="熊の被害が続いています。">
+  <div class="japanese">
+    <ruby>熊<rt>くま</rt></ruby>の
+    <ruby>被害<rt>ひがい</rt></ruby>が
+    <ruby>続<rt>つづ</rt></ruby>いています。
+  </div>
+  <span class="translation">Kerugian yang disebabkan oleh beruang terus berlanjut.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="岩手県では、学校に通うとき、スクールバスを利用している子どもがいます。">
+  <div class="japanese">
+    <ruby>岩手県<rt>いわてけん</rt></ruby>では、
+    <ruby>学校<rt>がっこう</rt></ruby>に
+    <ruby>通<rt>かよ</rt></ruby>うとき、スクールバスを
+    <ruby>利用<rt>りよう</rt></ruby>している
+    <ruby>子<rt>こ</rt></ruby>どもがいます。
+  </div>
+  <span class="translation">Di Prefektur Iwate, ada anak-anak yang menggunakan bus sekolah saat berangkat ke sekolah.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="子どもたちは、大きい道まで歩いて行って、バスに乗ります。">
+  <div class="japanese">
+    <ruby>子<rt>こ</rt></ruby>どもたちは、
+    <ruby>大<rt>おお</rt></ruby>きい
+    <ruby>道<rt>みち</rt></ruby>まで
+    <ruby>歩<rt>ある</rt></ruby>いて
+    <ruby>行<rt>い</rt></ruby>って、バスに
+    <ruby>乗<rt>の</rt></ruby>ります。
+  </div>
+  <span class="translation">Anak-anak berjalan kaki sampai ke jalan besar, lalu naik bus.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="先月から、熊の心配があるため、バスに、家の前まで来てほしいという意見が出ています。">
+  <div class="japanese">
+    <ruby>先月<rt>せんげつ</rt></ruby>から、
+    <ruby>熊<rt>くま</rt></ruby>の
+    <ruby>心配<rt>しんぱい</rt></ruby>があるため、バスに、
+    <ruby>家<rt>いえ</rt></ruby>の
+    <ruby>前<rt>まえ</rt></ruby>まで
+    <ruby>来<rt>き</rt></ruby>てほしいという
+    <ruby>意見<rt>いけん</rt></ruby>が
+    <ruby>出<rt>で</rt></ruby>ています。
+  </div>
+  <span class="translation">Sejak bulan lalu, karena kekhawatiran terhadap beruang, muncul pendapat yang meminta agar bus datang menjemput sampai ke depan rumah.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="しかし、バスが通ることができない小さい道もあります。">
+  <div class="japanese">
+    しかし、バスが
+    <ruby>通<rt>とお</rt></ruby>ることができない
+    <ruby>小<rt>ちい</rt></ruby>さい
+    <ruby>道<rt>みち</rt></ruby>もあります。
+  </div>
+  <span class="translation">Namun, ada juga jalan-jalan sempit yang tidak bisa dilewati oleh bus.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="バスの会社の社長は「子どもたちの安全のためにどうしたらいいか、市や学校、家族などと考えたいです」と言っています。">
+  <div class="japanese">
+    バスの
+    <ruby>会社<rt>かいしゃ</rt></ruby>の
+    <ruby>社長<rt>しゃちょう</rt></ruby>は「
+    <ruby>子<rt>こ</rt></ruby>どもたちの
+    <ruby>安全<rt>あんぜん</rt></ruby>のためにどうしたらいいか、
+    <ruby>市<rt>し</rt></ruby>や
+    <ruby>学校<rt>がっこう</rt></ruby>、
+    <ruby>家族<rt>かぞく</rt></ruby>などと
+    <ruby>考<rt>かんが</rt></ruby>えたいです」と
+    <ruby>言<rt>い</rt></ruby>っています。
+  </div>
+  <span class="translation">Presiden perusahaan bus mengatakan, "Demi keamanan anak-anak, saya ingin memikirkan solusi terbaik bersama pemerintah kota, sekolah, dan para keluarga."</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2025110717141/ne2025110717141.html"
+  },
+
+  {
+    title: "野菜や果物暑さが原因でよく育っていない<br>Sayur dan buah-buahan tidak tumbuh dengan baik karena penyebab cuaca panas",
+    content: `
+<div class="sentence-block" data-plain="野菜や果物暑さが原因でよく育っていない">
+  <div class="japanese">
+    <ruby>野菜<rt>やさい</rt></ruby>や
+    <ruby>果物<rt>くだもの</rt></ruby>
+    <ruby>暑<rt>あつ</rt></ruby>さが
+    <ruby>原因<rt>げんいん</rt></ruby>でよく
+    <ruby>育<rt>そだ</rt></ruby>っていない
+  </div>
+  <span class="translation">Sayur dan buah-buahan tidak tumbuh dengan baik karena penyebab cuaca panas</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="野菜や果物のニュースです。">
+  <div class="japanese">
+    <ruby>野菜<rt>やさい</rt></ruby>や
+    <ruby>果物<rt>くだもの</rt></ruby>のニュースです。
+  </div>
+  <span class="translation">Ini adalah berita tentang sayur-sayuran dan buah-buahan.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="国によると、夏に気温が高くて雨が少なかったため、トマトやたまねぎなどの野菜がよく育っていません。">
+  <div class="japanese">
+    <ruby>国<rt>くに</rt></ruby>によると、
+    <ruby>夏<rt>なつ</rt></ruby>に
+    <ruby>気温<rt>きおん</rt></ruby>が
+    <ruby>高<rt>たか</rt></ruby>くて
+    <ruby>雨<rt>あめ</rt></ruby>が
+    <ruby>少<rt>すく</rt></area>なかったため、トマトやたまねぎなどの
+    <ruby>野菜<rt>やさい</rt></ruby>がよく
+    <ruby>育<rt>そだ</rt></ruby>っていません。
+  </div>
+  <span class="translation">Menurut pemerintah, karena suhu yang tinggi dan kurangnya hujan pada musim panas, sayuran seperti tomat dan bawang bombay tidak tumbuh dengan baik.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="市場の人によると、秋にとれる柿やさつまいもなども、あまり育っていません。">
+  <div class="japanese">
+    <ruby>市場<rt>いちば</rt></ruby>の
+    <ruby>人<rt>ひと</rt></ruby>によると、
+    <ruby>秋<rt>あき</rt></ruby>にとれる
+    <ruby>柿<rt>かき</rt></ruby>やさつまいもなども、あまり
+    <ruby>育<rt>そだ</rt></ruby>っていません。
+  </div>
+  <span class="translation">Menurut orang-orang di pasar, buah kesemek dan ubi jalar yang dipanen pada musim gugur juga tidak tumbuh dengan maksimal.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="埼玉県で柿を育てている農家は、きれいな丸い形の柿が少ないと言っています。">
+  <div class="japanese">
+    <ruby>埼玉県<rt>さいたまけん</rt></ruby>で
+    <ruby>柿<rt>かき</rt></ruby>を
+    <ruby>育<rt>そだ</rt></ruby>てている
+    <ruby>農家<rt>のうか</rt></ruby>は、きれいな
+    <ruby>丸<rt>まる</rt></ruby>い
+    <ruby>形<rt>かたち</rt></ruby>の
+    <ruby>柿<rt>かき</rt></ruby>が
+    <ruby>少<rt>すく</rt></ruby>ないと言っています。
+  </div>
+  <span class="translation">Petani yang menanam kesemek di Prefektur Saitama mengatakan bahwa jumlah kesemek yang berbentuk bulat sempurna sangat sedikit.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="長野県ではマツタケがいつもの年より少なくなっています。">
+  <div class="japanese">
+    <ruby>長野県<rt>ながのけん</rt></ruby>ではマツタケがいつもの
+    <ruby>年<rt>とし</rt></ruby>より
+    <ruby>少<rt>すく</rt></ruby>なくなっています。
+  </div>
+  <span class="translation">Di Prefektur Nagano, jumlah jamur matsutake menjadi lebih sedikit dibandingkan tahun-tahun biasanya.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+
+<div class="sentence-block" data-plain="店の人は雨が少なくて気温が高かったのでマツタケが育つのが遅れたと言っています。">
+  <div class="japanese">
+    <ruby>店<rt>みせ</rt></ruby>の
+    <ruby>人<rt>ひと</rt></ruby>は
+    <ruby>雨<rt>あめ</rt></ruby>が
+    <ruby>少<rt>すく</rt></ruby>なくて
+    <ruby>気温<rt>きおん</rt></ruby>が
+    <ruby>高<rt>たか</rt></ruby>かったのでマツタケが
+    <ruby>育<rt>そだ</rt></ruby>つのが
+    <ruby>遅<rt>おく</rt></ruby>れたと言っています。
+  </div>
+  <span class="translation">Orang toko mengatakan bahwa karena curah hujan sedikit dan suhu udara tinggi, pertumbuhan jamur matsutake menjadi terlambat.</span>
+  <input class="typing-input" type="text" autocomplete="off">
+</div>
+    `,
+    sc:"https://news.web.nhk/news/easy/ne2025102411460/ne2025102411460.html"
   }
 ];
 
@@ -552,30 +1067,12 @@ function startNews(index) {
     initTyping();
 }
 
-// 4. Logika Mengetik
+// 4. Logika Mengetik Lengkap
 function initTyping() {
     const blocks = document.querySelectorAll(".sentence-block");
     let currentIndex = 0;
 
-    blocks.forEach((block, index) => {
-        const input = block.querySelector(".typing-input");
-        input.style.display = index === 0 ? "block" : "none";
-        if (index === 0) input.focus();
-
-        const correctText = block.dataset.plain.trim();
-
-        input.addEventListener("keydown", (e) => {
-            if (e.key === "Enter") {
-                e.preventDefault();
-                if (input.value.trim() === correctText) {
-                    handleCorrectAnswer(input);
-                } else {
-                    handleWrongAnswer();
-                }
-            }
-        });
-    });
-
+    // Fungsi Internal 1: Jika Jawaban Benar
     function handleCorrectAnswer(currentInput) {
         currentInput.style.display = "none";
         currentIndex++;
@@ -591,6 +1088,7 @@ function initTyping() {
         }
     }
 
+    // Fungsi Internal 2: Munculkan Alert Sukses & Simpan Progress
     function showSuccessAlert() {
         Swal.fire({
             title: 'Selesai!',
@@ -601,7 +1099,7 @@ function initTyping() {
             allowOutsideClick: false
         }).then((result) => {
             if (result.isConfirmed) {
-                // SIMPAN PROGRES
+                // SIMPAN PROGRES KE LOCALSTORAGE
                 const titleAktif = newsData[currentIndexNews].title;
                 let progress = JSON.parse(localStorage.getItem("typingProgress")) || {};
                 progress[titleAktif] = (progress[titleAktif] || 0) + 1;
@@ -613,28 +1111,68 @@ function initTyping() {
         });
     }
 
-    function handleWrongAnswer() {
-        Swal.fire({
-            title: 'Belum Tepat',
-            text: 'Masih ada kesalahan ketik.',
-            icon: 'error',
-            timer: 2000,
-            showConfirmButton: false,
-            toast: true,
-        });
-    }
-
+    // Fungsi Internal 3: Kembali ke Menu Utama
     function resetToMenu() {
         container.innerHTML = "";
         menu.style.display = "grid";
         h1.style.display = "block";
         playBtn.style.display = "none";
         stopBtn.style.display = "none";
-        speechSynthesis.cancel(); // Matikan suara jika masih ada
+        speechSynthesis.cancel();
         isReading = false;
-        tampilkanMenu(); // Refresh warna tombol di menu
+        tampilkanMenu(); // Refresh tampilan tombol (warna & jumlah latihan)
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    // Loop Utama untuk setiap blok kalimat
+    blocks.forEach((block, index) => {
+        const input = block.querySelector(".typing-input");
+        const japaneseTextElement = block.querySelector(".japanese");
+        const correctText = block.dataset.plain.trim();
+
+        // Tampilkan input pertama saja di awal
+        input.style.display = index === 0 ? "block" : "none";
+        if (index === 0) input.focus();
+
+        // 1. CEK REALTIME (Warna Merah)
+        input.addEventListener("input", () => {
+            const userText = input.value;
+            const targetPart = correctText.substring(0, userText.length);
+
+            if (userText !== targetPart) {
+                input.classList.add("error-text");
+                if (japaneseTextElement) japaneseTextElement.classList.add("error-highlight");
+            } else {
+                input.classList.remove("error-text");
+                if (japaneseTextElement) japaneseTextElement.classList.remove("error-highlight");
+            }
+        });
+
+        // 2. CEK SAAT TEKAN ENTER
+        input.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                
+                if (input.value.trim() === correctText) {
+                    // Jika benar, pastikan semua warna merah hilang dan lanjut
+                    input.classList.remove("error-text");
+                    if (japaneseTextElement) japaneseTextElement.classList.remove("error-highlight");
+                    handleCorrectAnswer(input);
+                } else {
+                    // Jika salah saat tekan enter
+                    Swal.fire({
+                        title: 'Belum Tepat',
+                        text: 'Masih ada kesalahan ketik.',
+                        icon: 'error',
+                        timer: 1500,
+                        showConfirmButton: false,
+                        toast: true,
+                        position: 'top-end'
+                    });
+                }
+            }
+        });
+    });
 }
 
 // 5. Logika Suara (Speech)

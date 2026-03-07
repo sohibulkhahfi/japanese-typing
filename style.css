@@ -238,3 +238,28 @@ rt {
 .btn-nhk i {
     font-size: 1.1rem;
 }
+
+
+
+/* Efek saat terjadi kesalahan pada blok teks Jepang */
+.japanese.error-highlight {
+    background-color: #ffebee; /* Merah muda sangat muda */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Opsional: membuat teks/ruby-nya sedikit berubah warna agar kontras */
+.japanese.error-highlight ruby, 
+.japanese.error-highlight rt {
+    color: #c62828; 
+}
+
+.typing-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
