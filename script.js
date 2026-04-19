@@ -141,7 +141,7 @@ const newsData = [
   <input class="typing-input" type="text" autocomplete="off">
 </div>
 
-<div class="sentence-block" data-plain="このお城に入るときの金が、1日から変わりました。">
+<div class="sentence-block" data-plain="このお城に入るときのお金が、1日から変わりました。">
   <div class="japanese">
     このお<ruby>城<rt>しろ</rt></ruby>に
     <ruby>入<rt>はい</rt></ruby>る
