@@ -524,7 +524,6 @@ const newsData = [
   {
     title: "トラブルがあったスカイツリー安全をチェックして営業を始めた <br> Skytree yang sempat mengalami masalah kembali beroperasi setelah pemeriksaan keamanan",
     content: `
-      <div class="sentence-block" data-plain="トラブルがあったスカイツリー安全をチェックして営業を始めた">
 <div class="sentence-block" data-plain="トラブルがあったスカイツリー安全をチェックして営業を始めた">
   <div class="japanese">
     トラブルがあったスカイツリー
